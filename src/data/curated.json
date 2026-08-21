@@ -1,0 +1,46 @@
+[
+  {
+    "id": "bus-schedule-pending",
+    "kind": "bus",
+    "title": "BAU বাস সময়সূচি",
+    "aliases": ["বাস", "শাটল বাস", "bus schedule", "campus bus", "transport"],
+    "notes": "যাচাই করা সময়সূচি এখনো যোগ করা হয়নি। অফিসিয়াল BAU পরিবহন তথ্য যাচাই করে এখানে যোগ করুন।",
+    "sourceUrl": "https://transport.bau.edu.bd/section/general-bus-schedule",
+    "sourceType": "curated",
+    "verifiedAt": "2026-08-21",
+    "status": "inactive"
+  },
+  {
+    "id": "ambulance-contact-pending",
+    "kind": "emergency",
+    "title": "BAU অ্যাম্বুলেন্স",
+    "aliases": ["ambulance", "অ্যাম্বুলেন্স", "জরুরি অ্যাম্বুলেন্স"],
+    "notes": "যাচাই করা অ্যাম্বুলেন্স নম্বর এখনো যোগ করা হয়নি। জরুরি অবস্থায় স্থানীয় জরুরি সেবায় যোগাযোগ করুন।",
+    "sourceUrl": "https://healthcare.bau.edu.bd/section/contact",
+    "sourceType": "curated",
+    "verifiedAt": "2026-08-21",
+    "status": "inactive"
+  },
+  {
+    "id": "health-care-contact-pending",
+    "kind": "emergency",
+    "title": "BAU Health Care",
+    "aliases": ["health care", "healthcare", "স্বাস্থ্যকেন্দ্র", "মেডিকেল", "medical"],
+    "notes": "যাচাই করা Health Care নম্বর এখনো যোগ করা হয়নি।",
+    "sourceUrl": "https://healthcare.bau.edu.bd/section/contact",
+    "sourceType": "curated",
+    "verifiedAt": "2026-08-21",
+    "status": "inactive"
+  },
+  {
+    "id": "emergency-contacts-pending",
+    "kind": "emergency",
+    "title": "BAU জরুরি যোগাযোগ",
+    "aliases": ["emergency", "জরুরি নম্বর", "জরুরি যোগাযোগ", "help"],
+    "notes": "যাচাই করা জরুরি যোগাযোগের তালিকা এখনো যোগ করা হয়নি।",
+    "sourceUrl": "https://bau.edu.bd/facilities/teldir",
+    "sourceType": "curated",
+    "verifiedAt": "2026-08-21",
+    "status": "inactive"
+  }
+]

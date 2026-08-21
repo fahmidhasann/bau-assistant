@@ -1,0 +1,238 @@
+[
+  {
+    "id": "ENTOM1001",
+    "kind": "faculty_contact",
+    "title": "Dr. Md. Azizul Haque",
+    "aliases": [
+      "Dr. Md. Azizul Haque",
+      "Md. Azizul Haque"
+    ],
+    "department": "Entomology",
+    "designation": "Professor",
+    "phone": "+8801716408628",
+    "email": "mahaque60@gmail.com",
+    "sourceUrl": "https://entom.bau.edu.bd/teachers/ENTOM1001",
+    "sourceType": "official",
+    "verifiedAt": "2026-08-21T11:02:43.270Z",
+    "status": "verified"
+  },
+  {
+    "id": "ENTOM1004",
+    "kind": "faculty_contact",
+    "title": "Dr. Masum Ahmad",
+    "aliases": [
+      "Dr. Masum Ahmad",
+      "Masum Ahmad"
+    ],
+    "department": "Entomology",
+    "designation": "Professor",
+    "phone": "01716665704",
+    "email": "masum_bau2006@yahoo.com",
+    "sourceUrl": "https://entom.bau.edu.bd/teachers/ENTOM1004",
+    "sourceType": "official",
+    "verifiedAt": "2026-08-21T11:02:43.270Z",
+    "status": "verified"
+  },
+  {
+    "id": "ENTOM1005",
+    "kind": "faculty_contact",
+    "title": "Dr. Kazi Shahanara Ahmed",
+    "aliases": [
+      "Dr. Kazi Shahanara Ahmed",
+      "Kazi Shahanara Ahmed"
+    ],
+    "department": "Entomology",
+    "designation": "Professor",
+    "phone": "01716626087",
+    "email": "shahanara.bau@gmail.com",
+    "sourceUrl": "https://entom.bau.edu.bd/teachers/ENTOM1005",
+    "sourceType": "official",
+    "verifiedAt": "2026-08-21T11:02:43.270Z",
+    "status": "verified"
+  },
+  {
+    "id": "ENTOM1006",
+    "kind": "faculty_contact",
+    "title": "Dr. Mahbuba Jahan",
+    "aliases": [
+      "Dr. Mahbuba Jahan",
+      "Mahbuba Jahan"
+    ],
+    "department": "Entomology",
+    "designation": "Professor",
+    "email": "jahan-bau@bau.edu.bd",
+    "sourceUrl": "https://entom.bau.edu.bd/teachers/ENTOM1006",
+    "sourceType": "official",
+    "verifiedAt": "2026-08-21T11:02:43.270Z",
+    "status": "verified"
+  },
+  {
+    "id": "ENTOM1007",
+    "kind": "faculty_contact",
+    "title": "Dr. Mohammad Mahir Uddin",
+    "aliases": [
+      "Dr. Mohammad Mahir Uddin",
+      "Mohammad Mahir Uddin"
+    ],
+    "department": "Entomology",
+    "designation": "Associate Professor",
+    "phone": "+8801747629072",
+    "email": "mahir@bau.edu.bd",
+    "sourceUrl": "https://entom.bau.edu.bd/teachers/ENTOM1007",
+    "sourceType": "official",
+    "verifiedAt": "2026-08-21T11:02:43.270Z",
+    "status": "verified"
+  },
+  {
+    "id": "ENTOM1008",
+    "kind": "faculty_contact",
+    "title": "Dr. Gopal Das",
+    "aliases": [
+      "Dr. Gopal Das",
+      "Gopal Das"
+    ],
+    "department": "Entomology",
+    "designation": "Professor",
+    "phone": "+8801749285388, +8801306406215",
+    "email": "gopal_entom@bau.edu.bd",
+    "sourceUrl": "https://entom.bau.edu.bd/teachers/ENTOM1008",
+    "sourceType": "official",
+    "verifiedAt": "2026-08-21T11:02:43.270Z",
+    "status": "verified"
+  },
+  {
+    "id": "ENTOM1009",
+    "kind": "faculty_contact",
+    "title": "Dr. Mohammed Abul Monjur Khan",
+    "aliases": [
+      "Dr. Mohammed Abul Monjur Khan",
+      "Mohammed Abul Monjur Khan"
+    ],
+    "department": "Entomology",
+    "designation": "Professor",
+    "phone": "+880 1768598881",
+    "email": "khan@bau.edu.bd",
+    "sourceUrl": "https://entom.bau.edu.bd/teachers/ENTOM1009",
+    "sourceType": "official",
+    "verifiedAt": "2026-08-21T11:02:43.270Z",
+    "status": "verified"
+  },
+  {
+    "id": "ENTOM1010",
+    "kind": "faculty_contact",
+    "title": "Dr. Mohammad Shaef Ullah (ড. মোহাম্মদ সাইফুল্লাহ)",
+    "aliases": [
+      "Dr. Mohammad Shaef Ullah (ড. মোহাম্মদ সাইফুল্লাহ)",
+      "Mohammad Shaef Ullah (ড. মোহাম্মদ সাইফুল্লাহ)"
+    ],
+    "department": "Entomology",
+    "designation": "Professor",
+    "phone": "+8801779-682882",
+    "email": "ullahipm@bau.edu.bd",
+    "sourceUrl": "https://entom.bau.edu.bd/teachers/ENTOM1010",
+    "sourceType": "official",
+    "verifiedAt": "2026-08-21T11:02:43.270Z",
+    "status": "verified"
+  },
+  {
+    "id": "ENTOM1011",
+    "kind": "faculty_contact",
+    "title": "Dr. Mohammad Tofazzal Hossain Howlader",
+    "aliases": [
+      "Dr. Mohammad Tofazzal Hossain Howlader",
+      "Mohammad Tofazzal Hossain Howlader"
+    ],
+    "department": "Entomology",
+    "designation": "Professor",
+    "phone": "+8801742220007",
+    "email": "tofazzalh@bau.edu.bd",
+    "sourceUrl": "https://entom.bau.edu.bd/teachers/ENTOM1011",
+    "sourceType": "official",
+    "verifiedAt": "2026-08-21T11:02:43.270Z",
+    "status": "verified"
+  },
+  {
+    "id": "ENTOM1020",
+    "kind": "faculty_contact",
+    "title": "Dr. Naznin Nahar",
+    "aliases": [
+      "Dr. Naznin Nahar",
+      "Naznin Nahar"
+    ],
+    "department": "Entomology",
+    "designation": "Professor",
+    "phone": "01720320525",
+    "email": "naznin.nahar@bau.edu.bd",
+    "sourceUrl": "https://entom.bau.edu.bd/teachers/ENTOM1020",
+    "sourceType": "official",
+    "verifiedAt": "2026-08-21T11:02:43.270Z",
+    "status": "verified"
+  },
+  {
+    "id": "ENTOM1015",
+    "kind": "faculty_contact",
+    "title": "Prof. Dr. Md. Mahbubur Rahman",
+    "aliases": [
+      "Prof. Dr. Md. Mahbubur Rahman",
+      "Dr. Md. Mahbubur Rahman"
+    ],
+    "department": "Entomology",
+    "designation": "Associate Professor",
+    "phone": "+8801325693200",
+    "email": "rahmanmm_ent@bau.edu.bd",
+    "sourceUrl": "https://entom.bau.edu.bd/teachers/ENTOM1015",
+    "sourceType": "official",
+    "verifiedAt": "2026-08-21T11:02:43.270Z",
+    "status": "verified"
+  },
+  {
+    "id": "ENTOM1021",
+    "kind": "faculty_contact",
+    "title": "Dr. Krishna Rany Das",
+    "aliases": [
+      "Dr. Krishna Rany Das",
+      "Krishna Rany Das"
+    ],
+    "department": "Entomology",
+    "designation": "Professor",
+    "phone": "01684460620",
+    "email": "krishnarany@bau.edu.bd",
+    "sourceUrl": "https://entom.bau.edu.bd/teachers/ENTOM1021",
+    "sourceType": "official",
+    "verifiedAt": "2026-08-21T11:02:43.270Z",
+    "status": "verified"
+  },
+  {
+    "id": "ENTOM1017",
+    "kind": "faculty_contact",
+    "title": "Dr. Tarikul Islam",
+    "aliases": [
+      "Dr. Tarikul Islam",
+      "Tarikul Islam"
+    ],
+    "department": "Entomology",
+    "designation": "Associate Professor",
+    "email": "tarikul.entom@bau.edu.bd",
+    "sourceUrl": "https://entom.bau.edu.bd/teachers/ENTOM1017",
+    "sourceType": "official",
+    "verifiedAt": "2026-08-21T11:02:43.270Z",
+    "status": "verified"
+  },
+  {
+    "id": "ENTOM1018",
+    "kind": "faculty_contact",
+    "title": "Dr. Mst. Rokeya Khatun",
+    "aliases": [
+      "Dr. Mst. Rokeya Khatun",
+      "Mst. Rokeya Khatun"
+    ],
+    "department": "Entomology",
+    "designation": "Associate Professor",
+    "phone": "+8801759597835",
+    "email": "rokeya.entom@bau.edu.bd",
+    "sourceUrl": "https://entom.bau.edu.bd/teachers/ENTOM1018",
+    "sourceType": "official",
+    "verifiedAt": "2026-08-21T11:02:43.270Z",
+    "status": "verified"
+  }
+]

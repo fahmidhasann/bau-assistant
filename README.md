@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# BAU সহকারী
 
-## Getting Started
+বাংলাদেশ কৃষি বিশ্ববিদ্যালয়ের শিক্ষক যোগাযোগ, পরিবহন ও জরুরি তথ্যের জন্য একটি Bengali-first Next.js assistant। উত্তর দেওয়ার সময় ফোন, ইমেইল ও উৎস সরাসরি যাচাই করা local snapshot থেকে আসে; AI কখনো contact data তৈরি করে না।
 
-First, run the development server:
+## চালু করুন
 
 ```bash
+npm install
+cp .env.example .env.local
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+তারপর [http://localhost:3000](http://localhost:3000) খুলুন। `OPENROUTER_API_KEY` না থাকলেও teacher, bus ও emergency structured lookup কাজ করবে। Key থাকলে অস্পষ্ট প্রশ্ন classify করার fallback চালু হবে।
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ডেটা আপডেট
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `src/data/curated.json`: human-verified bus ও emergency records। বর্তমানে ইচ্ছাকৃতভাবে inactive placeholder আছে; যাচাই ছাড়া কোনো নম্বর যোগ করবেন না।
+- `src/data/faculty.generated.json`: BAU Entomology directory snapshot।
+- `npm run sync:data`: official BAU directory থেকে teacher snapshot refresh করে। এর জন্য server-side `BAU_SYNC_API_KEY` প্রয়োজন। Sync অসম্পূর্ণ বা ব্যর্থ হলে আগের snapshot অক্ষত থাকে।
 
-## Learn More
+একটি active curated record-এর সাধারণ গঠন:
 
-To learn more about Next.js, take a look at the following resources:
+```json
+{
+  "id": "general-bus-campus-town",
+  "kind": "bus",
+  "title": "ক্যাম্পাস–শহর জেনারেল বাস",
+  "aliases": ["জেনারেল বাস", "campus town bus"],
+  "schedule": [
+    {
+      "route": "ক্যাম্পাস → শহর",
+      "days": ["রবি–বৃহস্পতি"],
+      "departures": ["08:00", "14:30"],
+      "notes": "ছুটির দিনে প্রযোজ্য নয়"
+    }
+  ],
+  "sourceUrl": "https://transport.bau.edu.bd/section/general-bus-schedule",
+  "sourceType": "curated",
+  "verifiedAt": "2026-08-21",
+  "status": "active"
+}
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Emergency record-এ একইভাবে `phone` যোগ করুন। সময় বা নম্বর অবশ্যই BAU-এর দায়িত্বশীল ব্যক্তি দিয়ে যাচাই করুন।
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Quality checks
 
-## Deploy on Vercel
+```bash
+npm run lint
+npm run typecheck
+npm test
+npm run build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Tests Bengali, Banglish, English, fuzzy names, ambiguity, unavailable data, no-fabrication এবং official-source enforcement কভার করে।
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Vercel
+
+1. project-টি GitHub-এ push করে Vercel-এ import করুন।
+2. Root Directory হিসেবে `bau-assistant` নির্বাচন করুন যদি parent workspace push করেন।
+3. `OPENROUTER_API_KEY`, `OPENROUTER_MODEL=openrouter/free` এবং production `NEXT_PUBLIC_APP_URL` environment variables দিন।
+4. Build command `npm run build`; output auto-detected হবে।
+
+OpenRouter key browser bundle-এ যায় না; এটি শুধু `app/api/chat` server route ব্যবহার করে।
